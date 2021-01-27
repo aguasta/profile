@@ -15,7 +15,7 @@ h1 {
   font-weight: 900;
 }
 h2 {
-  color: #7ECE90;
+  color: #575F7D;
   font-size: 20px;
   font-weight: lighter;
   font-weight: 500;
@@ -62,7 +62,7 @@ a:hover {
 
 
 .card-white {
-  background-color:rgba(255,255,255, 0.6);
+  background-color:rgba(255,255,255, 0.7);
   padding: 40px;
   box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
   border-radius: 4px;
@@ -80,7 +80,7 @@ a:hover {
 }
 .btn-blue:hover {
   background-color: black;
-  color: white;
+  color: black;
 }
 .list-inline {
   list-style: none;
@@ -93,7 +93,7 @@ a:hover {
 }
 .list-inline i {
   font-size: 50px;
-  color: rgb(230, 230, 230);
+  color: black;
 }
 .list-inline i:hover {
   color: black;
@@ -102,4 +102,5 @@ a:hover {
 /* Design adjustments using id (1% design remaining) */
 #introduction p {
   margin-bottom: 40px;
+  font-weight: bold;
 }
