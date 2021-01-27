@@ -8,6 +8,13 @@ body {
   font-weight: lighter;
 }
 
+.banner {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
 .card-white {
   background-color: white;
   padding: 40px;
@@ -74,7 +81,7 @@ a {
   text-decoration: none;
   color: #6B72E1;
   font-weight: 600;
-  font-size: 50px;
+  font-size: 60px;
 }
 
 ul {
