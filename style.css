@@ -68,6 +68,8 @@ a:hover {
   border-radius: 4px;
   margin: 20px 0px;
   text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 .img-circle {
   border-radius: 50%;
