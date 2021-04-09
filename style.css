@@ -65,7 +65,7 @@ a:hover {
   margin: 20px 0px;
   text-align: center;
   margin-bottom: 20px;
-  margin-top: 20px;
+  margin-top: 90px;
 }
 .img-circle {
   border-radius: 50%;
@@ -102,6 +102,8 @@ a:hover {
   margin-bottom: 40px;
   font-weight: bold;
 }
+
+
 
 footer {
   width: 100%;
@@ -168,4 +170,34 @@ img {
 .btn-gradient:hover {
   background: linear-gradient(#147EFF, #0F67DA);
   color: white;
+}
+
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #D3D3D3;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
 }
